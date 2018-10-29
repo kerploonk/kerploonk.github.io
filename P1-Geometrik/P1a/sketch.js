@@ -1,4 +1,4 @@
-// Hér kemur kóðinn þinn:
+
 function setup(){
     createCanvas(600,600);
     background(0,0,0);
@@ -18,5 +18,4 @@ function setup(){
     rect(275,590,155,10)
     fill(53,53,43)
     rect(435,590,120,10)
-
 }
