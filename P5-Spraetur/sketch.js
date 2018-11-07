@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600,300);
+  createCanvas(1280,640);
   background(flag);
 }
 
