@@ -15,10 +15,10 @@ function setup() {
 
 function mousePressed() {
   imageMode(CENTER);
-  image(flag,mouseX,mouseY);
+  image(hammer,mouseX,mouseY);
 }
 
 function keyPressed() {
   imageMode(CENTER);
-  background(hammer);
+  background(flag);
 }
