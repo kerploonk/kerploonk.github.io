@@ -10,7 +10,7 @@ function preload() {
 
 function setup() {
   createCanvas(600,300);
-  background(hundur);
+  background(flag);
 }
 
 function mousePressed() {
