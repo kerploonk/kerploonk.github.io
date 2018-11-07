@@ -5,8 +5,7 @@ var hammer;
 
 function preload() {
   flag = loadImage('Myndir/flag.png'); // https://en.wikipedia.org/wiki/File:Flag_of_the_Soviet_Union_(reverse).svg
-  hammer = loadImage('Myndir/hamar.png'); // https://de.wikipedia.org/wiki/Datei:Hammer_and_sickle.svg
-}
+  hammer = loadImage('Myndir/hamar.png'); // https://www.kisspng.com/png-soviet-union-logo-png-55799/
 
 function setup() {
   createCanvas(1280,640);
