@@ -19,6 +19,6 @@ function mousePressed() {
 }
 
 function keyPressed() {
-  imageMode(CENTER);
+  imageMode(CORNER);
   background(flag);
 }
