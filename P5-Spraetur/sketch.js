@@ -19,6 +19,6 @@ function mousePressed() {
 }
 
 function keyPressed() {
-  imageMode(CORNER);
+  imageMode(CENTER);
   background(hammer);
 }
