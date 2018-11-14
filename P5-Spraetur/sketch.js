@@ -4,20 +4,20 @@ var flag;
 var hammer;
 
 function preload() {
-  flag = loadImage('Myndir/flag.png'); // https://en.wikipedia.org/wiki/File:Flag_of_the_Soviet_Union_(reverse).svg
-  hammer = loadImage('Myndir/hamar.png'); // https://www.kisspng.com/png-soviet-union-logo-png-55799/
+  horse = loadImage('Myndir/horse.png'); //https://opengameart.org/content/animal-pack-redux
+  hestur = loadImage('Myndir/hestur.png');
 
 function setup() {
-  createCanvas(1280,640);
-  background(flag);
+  createCanvas(1280,720);
+  background(hestur);
 }
 
 function mousePressed() {
   imageMode(CENTER);
-  image(hammer,mouseX,mouseY);
+  image(horse,ouseX,mouseY);
 }
 
 function keyPressed() {
   imageMode(CORNER);
-  background(flag);
+  background(hestur);
 }
