@@ -1,0 +1,32 @@
+/* Með CSS stjórnarðu ´tliti síðunnar, eins og litum, leturgerð, og staðsetningu
+innihledsins. En sjálft innihald síðunnar er í HTML kóðanum.
+Til þess að læra að gera eitthvað, prófaðu að leita á google af því sem þú vilt vita, til dæmis:
+"how to change link color." */
+
+body {
+  background-color: #EDF2F4;
+  color: #2B2D42;
+	border-style:dashed;
+  border: 4px solid black;
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+}
+
+h2 {
+  color: #000000;
+}
+
+h3{
+  color: #000000;
+}
+h4{
+  color: #000000;
+}
+h5{
+  color: #000000;
+  border-style: solid;
+  border: 2px solid black;
+}
